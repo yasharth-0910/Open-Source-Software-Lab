@@ -1,0 +1,108 @@
+OPENSOURCESOFTWARELAB(15B17CI575)
+LabAssignment3(PracticeLab)
+Odd2025
+Week3:8Aug-15Aug
+TopicCoverage:Python(Createuserdefinedfunctionsusingbuilt-infunctionssuchasfilter (f, a)
+from python libraries with key concepts like data structures, stringmanipulation, and
+functions)
+1. Writeafunctioninvertdicttointerchangekeysandvaluesinadictionary.Forsimplicity,
+assume that all values are unique.
+2. Writeafunctionvaluesortto sort values of adictionarybased on the key.
+3. Writeapython programtofindNlargestelementsassumingsizeoflistisgreaterthan or equal
+to N.
+4. WriteaPythonprogramtogetallpossible two-digitlettercombinationsfromadigit(1 to 9)
+string.
+string_maps={
+"1": "abc",
+"2":"def",
+"3":"ghi",
+"4":"jkl",
+"5":"mno",
+"6":"pqrs",
+"7":"tuv",
+"8":"wxy",
+"9":"z"
+}
+5. There are 10 vertical and horizontal squares on a plane. Each square is painted blue and
+green.Bluerepresentsthesea,andgreenrepresentstheland.Whentwogreensquaresare in
+contact with the top and bottom, or right and left, they are said to be ground. The area
+created by only one green square is called "island". Write a Python program to read the
+mass data and find the number of islands.
+Input:
+Asingledatasetisrepresentedby10rowsof10 numbersrepresentinggreensquares as1 and blue
+squares as zeros.
+1100000111
+1000000111
+0000000111
+0010001000
+0000011100
+0000111110
+0001111111
+1000111110
+1100011100
+1110001000
+Numberof islands:
+5
+6. Writeapythonprogramtoreadfrominputastring.TheinputcontainsCOMMAseparated
+integers. The string can also contain spaces before and after COMMA. The output of the
+programisalistofintegersthatcontainstheDOUBLEofallnumbersintheinput.NOTE:
+● Theoutput valueis computedas alist of integers.
+● UsePython's print(...)toprint it directly.
+● NegativeintegersandZEROareallowedinthe input.
+● Usepython'ssplit(...)functiontoprocesstheinputstring.
+Input:
+123, 456, 222, 145
+Output:
+[246, 912, 444,290]
+Input:
+-1,0, -2,2, 0, 1
+Output:
+[-2,0, -4, 4, 0, 2]
+7. WriteaPythonprogramtoextractcharactersfromvarioustextfilesandputthemintoa list.
+8. VendingMachine
+In this program, you have to simulate a simple Vending Machine. You need to read a file,
+VendingItems.txt. It should contain Item-names and their Prices (integers) separated by a
+PIPE (|). Here is a sample:
+PotatoChips|20
+Popcorn|30
+Chocolate|15
+Biscuit|10
+Soft Drink|12
+Storethelinesreadinadictionary,mappingitemstotheirrespectiveprices.Theinputto the
+program will consist of an item name. If the item is not a valid item (i.e., an item not
+available in the vending machine), you need to ask the user to tryagain. Use exceptions
+to handle the missing items.
+Afteraproperitemisread,theprogramexpectstheusertoprovidethemoneytodepositin
+thevendingmachine(integer).Again,theprogramwillasktheusertotryagaintillaproper integer
+is read (using exception handling).
+Finally, dependingupon themoneydepositedbytheuser,theMachinewill displaythe
+appropriate message(s).
+EXAMPLEINTERACTION(INPUTandOUTPUTareintermixed.INPUTsare
+shaded):
+batata vada
+AvailableItemsare['PotatoChips','Popcorn','Chocolate','Biscuit','SoftDrink']. Try
+Again.
+pani-puri
+AvailableItemsare['PotatoChips','Popcorn','Chocolate','Biscuit','SoftDrink']. Try
+Again.
+PotatoChips
+credit-card
+BadInputcredit-card.
+TryAgain.
+debit-card
+BadInputdebit-card.
+TryAgain.
+25
+Thankyouforyourpurchase. Enjoy
+Donotforgettocollectyourchange,5Rs.
+9. Write a Python program for binary search using recursive as well as iterative method.
+10. Write a Python program to find the most repetitive word in a text file. 11. Write a
+Python function that takes a list and returns a new list with unique elements of the first list.
+12. Write aPythonprogramtofindthefirstnon-repeatingcharacteringivenstring.
+13. WriteaPythonprogramtoremovetheparenthesisareainastring.Sampledata:
+["example (.com)", "w3resource", "github (.com)", "stackoverflow (.com)"]
+Expected Output:
+example
+w3resource
+github
+stackoverflow
